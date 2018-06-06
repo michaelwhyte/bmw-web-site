@@ -1,0 +1,32 @@
+nav {
+
+    background-color: orange;
+
+    ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        flex: 1;
+    }
+
+    a {
+        display: block;
+        line-height: 45px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.3em;
+
+        &:hover, &:focus {
+            outline: none;
+            background-color: rgba(white, 0.3);
+        }
+
+    }
+
+}
